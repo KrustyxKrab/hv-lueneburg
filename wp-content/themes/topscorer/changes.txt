@@ -1,0 +1,52 @@
+1.3
+- Added readme.txt
+- Added WPML config file
+- Added SportsPress single pages WPBakery compatibility
+- Updated Qode Framework to 1.2.6
+- Updated Revolution Slider to 6.7.34
+- Updated WPBakery Page Builder to 8.4.1
+- Updated TopScorer Core to 1.2
+- Updated Swiper JS script to 8.4.5
+- Updated FontAwesome icons pack to 6.6
+- Updated Search template helper functions
+- Improved theme's security
+- Improved Google Map API compatibility
+- Improved PHP 8.3 compatibility
+- Improved WooCommerce empty cart styles
+- Improved pagination helper functions
+- Improved back to top scrolling
+- Fixed translation loading
+- Minor fixes
+
+1.2
+- Added WordPress 6.1.1 compatibility
+- Added WooCommerce 7.1.0 compatibility
+- Added PHP 8 compatibility
+- Added Enable/Disable Google Fonts option and functionality
+- Updated TopScorer Core plugin to 1.1
+- Updated Qode Framework plugin to 1.1.9
+- Updated WPBakery Page Builder plugin to 6.10.0
+- Updated Slider Revolution plugin to 6.6.7
+- Updated TopScorer Child theme to 1.0.1
+- Fixed List shortcodes not scrolling to top after changing page in pagination
+- Fixed background text animation and blank space
+- Fixed fullscreen menu scrolling
+- Fixed social share
+- Fixed Perfect Scrollbar issue
+- Fixed TopScorer Core plugin translation
+- Fixed custom font global option functionality
+- Fixed custom class excluding for shortcodes
+- Fixed star rating in single product page
+- Fixed WooCommerce quantity input fields NaN value
+- Fixed cart widgets in WordPress 5.8
+- Improved import for PHP8
+- Improved theme registration functionality
+- Improved theme registration - code already used case
+- Improved theme registration to block Shortcodes and CPT loading if the theme is not registered
+- Theme Validation Rest Endpoint
+
+1.1
+- Added WordPress 5.5 compatibility
+- Updated TopScorer Core to 1.0.1
+- Updated Revolution Slider to 6.2.22
+- Updated WPBakery Page Builder to 6.3.0

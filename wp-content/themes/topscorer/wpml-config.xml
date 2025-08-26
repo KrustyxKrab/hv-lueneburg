@@ -1,0 +1,528 @@
+<wpml-config>
+	<custom-types>
+		<custom-type translate="1">clients</custom-type>
+		<custom-type translate="1">testimonials</custom-type>
+	</custom-types>
+	<taxonomies>
+		<taxonomy translate="1">clients-category</taxonomy>
+		<taxonomy translate="1">testimonials-category</taxonomy>
+	</taxonomies>
+	<custom-fields>
+		<custom-field action="translate" translate_link_target="1">qodef_post_format_video_url</custom-field>
+		<custom-field action="translate" translate_link_target="1">qodef_post_format_audio_url</custom-field>
+		<custom-field action="translate">qodef_post_format_link</custom-field>
+		<custom-field action="translate">qodef_post_format_link_text</custom-field>
+		<custom-field action="translate">qodef_post_format_quote_author</custom-field>
+		<custom-field action="translate">qodef_banner_link</custom-field>
+		<custom-field action="translate">qodef_page_title_subtitle</custom-field>
+		<custom-field action="translate">qodef_client_link</custom-field>
+		<custom-field action="translate">qodef_testimonials_title</custom-field>
+		<custom-field action="translate">qodef_testimonials_text</custom-field>
+		<custom-field action="translate">qodef_testimonials_author</custom-field>
+		<custom-field action="translate">qodef_testimonials_author_job</custom-field>
+		<custom-field action="translate">qodef_sportspress_event_single_live_stream_link</custom-field>
+		<custom-field action="translate">qodef_sportspress_event_single_tickets_link</custom-field>
+		<custom-field action="translate">qodef_sportspress_team_single_first_name</custom-field>
+		<custom-field action="translate">qodef_post_format_quote_text</custom-field>
+		<custom-field action="copy">qodef_blog_list_image</custom-field>
+		<custom-field action="copy">qodef_post_format_gallery_images</custom-field>
+		<custom-field action="copy">qodef_page_background_image</custom-field>
+		<custom-field action="copy">qodef_passepartout_image</custom-field>
+		<custom-field action="copy">qodef_top_footer_area_background_image</custom-field>
+		<custom-field action="copy">qodef_banner_image</custom-field>
+		<custom-field action="copy">qodef_logo_main</custom-field>
+		<custom-field action="copy">qodef_logo_dark</custom-field>
+		<custom-field action="copy">qodef_logo_light</custom-field>
+		<custom-field action="copy">qodef_logo_sticky</custom-field>
+		<custom-field action="copy">qodef_mobile_logo_main</custom-field>
+		<custom-field action="copy">qodef_page_title_background_image</custom-field>
+		<custom-field action="copy">qodef_logo_image</custom-field>
+		<custom-field action="copy">qodef_product_list_image</custom-field>
+		<custom-field action="copy">qodef_sportspress_event_single_tickets</custom-field>
+		<custom-field action="copy">qodef_sportspress_player_single_social_icons</custom-field>
+		<custom-field action="copy">qodef_sportspress_team_single_trophies</custom-field>
+	</custom-fields>
+	<admin-texts>
+		<key name="topscorer_core_options">
+			<key name="qodef_page_spinner_text" />
+			<key name="qodef_search_page_excerpt_number_of_characters" />
+			<key name="qodef_blog_list_excerpt_number_of_characters" />
+			<key name="qodef_twitter_via" />
+			<key name="qodef_sportspress_archive_number_of_characters" />
+			<key name="qodef_sportspress_player_single_trending_posts_tagline" />
+			<key name="qodef_sportspress_player_single_trending_posts_title" />
+			<key name="qodef_sportspress_player_single_related_players_tagline" />
+			<key name="qodef_sportspress_player_single_related_players_title" />
+			<key name="qodef_sportspress_player_single_related_players_background_text" />
+			<key name="qodef_404_page_tagline" />
+			<key name="qodef_404_page_title" />
+			<key name="qodef_404_page_text" />
+			<key name="qodef_404_page_button_text" />
+			<key name="qodef_page_background_image" />
+			<key name="qodef_passepartout_image" />
+			<key name="qodef_page_spinner_background_image" />
+			<key name="qodef_logo_main" />
+			<key name="qodef_logo_dark" />
+			<key name="qodef_logo_light" />
+			<key name="qodef_logo_sticky" />
+			<key name="qodef_mobile_logo_main" />
+			<key name="qodef_page_title_background_image" />
+			<key name="qodef_top_footer_area_background_image" />
+			<key name="qodef_404_page_background_image" />
+		</key>
+		<key name="topscorer_core_blog_list">
+			<key name="*">
+				<key name="widget_title" />
+				<key name="post_ids" />
+				<key name="tax_slug" />
+				<key name="tax__in" />
+			</key>
+		</key>
+		<key name="topscorer_core_contact_form_7">
+			<key name="*">
+				<key name="widget_title" />
+			</key>
+		</key>
+		<key name="">
+			<key name="*">
+				<key name="widget_title" />
+			</key>
+		</key>
+		<key name="topscorer_core_custom_font">
+			<key name="*">
+				<key name="title" />
+			</key>
+		</key>
+		<key name="topscorer_core_icon">
+			<key name="*">
+				<key name="link" />
+			</key>
+		</key>
+		<key name="topscorer_core_icon_list_item">
+			<key name="*">
+				<key name="link" />
+				<key name="number" />
+				<key name="custom_icon" />
+				<key name="title" />
+			</key>
+		</key>
+		<key name="topscorer_core_social_share">
+			<key name="*">
+				<key name="title" />
+			</key>
+		</key>
+		<key name="topscorer_core_author_info">
+			<key name="*">
+				<key name="author_username" />
+				<key name="author_tagline" />
+			</key>
+		</key>
+		<key name="topscorer_core_blog_list_loop">
+			<key name="*">
+				<key name="widget_tagline" />
+				<key name="post_ids" />
+				<key name="tax_slug" />
+				<key name="tax__in" />
+			</key>
+		</key>
+	</admin-texts>
+	<shortcodes>
+		<shortcode>
+			<tag>topscorer_core_icon</tag>
+			<attributes>
+				<attribute>link</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>topscorer_core_button</tag>
+			<attributes>
+				<attribute>text</attribute>
+				<attribute>link</attribute>
+				<attribute>input_name</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>topscorer_core_accordion_child</tag>
+			<attributes>
+				<attribute>title</attribute>
+				<attribute>layout</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>topscorer_core_banner</tag>
+			<attributes>
+				<attribute>link_url</attribute>
+				<attribute>title</attribute>
+				<attribute>subtitle</attribute>
+				<attribute>text_field</attribute>
+				<attribute>text</attribute>
+				<attribute>input_name</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>topscorer_core_countdown</tag>
+			<attributes>
+				<attribute>date_hour</attribute>
+				<attribute>date_minute</attribute>
+				<attribute>week_label</attribute>
+				<attribute>week_label_plural</attribute>
+				<attribute>day_label</attribute>
+				<attribute>day_label_plural</attribute>
+				<attribute>minute_label</attribute>
+				<attribute>minute_label_plural</attribute>
+				<attribute>second_label</attribute>
+				<attribute>second_label_plural</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>topscorer_core_custom_font</tag>
+			<attributes>
+				<attribute>title</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>topscorer_core_dropcaps</tag>
+			<attributes>
+				<attribute>letter</attribute>
+				<attribute>text</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>topscorer_core_dual_image_with_text</tag>
+			<attributes>
+				<attribute>link</attribute>
+				<attribute>tagline</attribute>
+				<attribute>title</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>topscorer_core_google_map</tag>
+			<attributes>
+				<attribute>address1</attribute>
+				<attribute>address2</attribute>
+				<attribute>address3</attribute>
+				<attribute>address4</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>topscorer_core_highlight</tag>
+			<attributes>
+				<attribute>text</attribute>
+				<attribute>link</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>topscorer_core_icon_list_item</tag>
+			<attributes>
+				<attribute>link</attribute>
+				<attribute>number</attribute>
+				<attribute>title</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>topscorer_core_icon_with_text</tag>
+			<attributes>
+				<attribute>link</attribute>
+				<attribute>title</attribute>
+				<attribute>subtitle</attribute>
+				<attribute>text</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>topscorer_core_image_marquee</tag>
+			<attributes>
+				<attribute>duration</attribute>
+				<attribute>link</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>topscorer_core_image_with_text</tag>
+			<attributes>
+				<attribute>link</attribute>
+				<attribute>title</attribute>
+				<attribute>text</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>topscorer_core_info_section</tag>
+			<attributes>
+				<attribute>title</attribute>
+				<attribute>info_text</attribute>
+				<attribute>text</attribute>
+				<attribute>link</attribute>
+				<attribute>input_name</attribute>
+				<attribute>background_text_text</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>topscorer_core_progress_bar</tag>
+			<attributes>
+				<attribute>custom_shape</attribute>
+				<attribute>custom_shape_id</attribute>
+				<attribute>number</attribute>
+				<attribute>title</attribute>
+				<attribute>text</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>topscorer_core_section_title</tag>
+			<attributes>
+				<attribute>title</attribute>
+				<attribute>subtitle</attribute>
+				<attribute>link</attribute>
+				<attribute>text</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>topscorer_core_video_button</tag>
+			<attributes>
+				<attribute>video_link</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>topscorer_workflow_gallery</tag>
+			<attributes>
+				<attribute type="area" encoding="urlencoded_json">children</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>topscorer_core_social_share</tag>
+			<attributes>
+				<attribute>title</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>topscorer_core_sportspress_advanced_single_event</tag>
+			<attributes>
+				<attribute>background_text</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>topscorer_core_sportspress_player_social_networks</tag>
+			<attributes>
+				<attribute>title</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>topscorer_core_sportspress_event_blocks</tag>
+			<attributes>
+				<attribute>sportspress_shortcode_number</attribute>
+				<attribute>sportspress_shortcode_rows</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>topscorer_core_sportspress_event_list</tag>
+			<attributes>
+				<attribute>sportspress_shortcode_number</attribute>
+				<attribute>sportspress_shortcode_rows</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>topscorer_core_sportspress_league_table</tag>
+			<attributes>
+				<attribute>sportspress_shortcode_number</attribute>
+				<attribute>sportspress_shortcode_rows</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>topscorer_core_sportspress_player_gallery</tag>
+			<attributes>
+				<attribute>sportspress_shortcode_number</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>topscorer_core_sportspress_player_list</tag>
+			<attributes>
+				<attribute>sportspress_shortcode_number</attribute>
+				<attribute>sportspress_shortcode_columns</attribute>
+			</attributes>
+		</shortcode>
+	</shortcodes>
+	<elementor-widgets>
+		<widget name="topscorer_core_icon">
+			<fields>
+				<field>link</field>
+			</fields>
+		</widget>
+		<widget name="topscorer_core_button">
+			<fields>
+				<field>text</field>
+				<field>link</field>
+				<field>input_name</field>
+			</fields>
+		</widget>
+		<widget name="topscorer_core_accordion_child">
+			<fields>
+				<field>title</field>
+				<field>layout</field>
+			</fields>
+		</widget>
+		<widget name="topscorer_core_banner">
+			<fields>
+				<field>link_url</field>
+				<field>title</field>
+				<field>subtitle</field>
+				<field>text_field</field>
+				<field>text</field>
+				<field>input_name</field>
+			</fields>
+		</widget>
+		<widget name="topscorer_core_countdown">
+			<fields>
+				<field>date_hour</field>
+				<field>date_minute</field>
+				<field>week_label</field>
+				<field>week_label_plural</field>
+				<field>day_label</field>
+				<field>day_label_plural</field>
+				<field>minute_label</field>
+				<field>minute_label_plural</field>
+				<field>second_label</field>
+				<field>second_label_plural</field>
+			</fields>
+		</widget>
+		<widget name="topscorer_core_custom_font">
+			<fields>
+				<field>title</field>
+			</fields>
+		</widget>
+		<widget name="topscorer_core_dropcaps">
+			<fields>
+				<field>letter</field>
+				<field>text</field>
+			</fields>
+		</widget>
+		<widget name="topscorer_core_dual_image_with_text">
+			<fields>
+				<field>link</field>
+				<field>tagline</field>
+				<field>title</field>
+			</fields>
+		</widget>
+		<widget name="topscorer_core_google_map">
+			<fields>
+				<field>address1</field>
+				<field>address2</field>
+				<field>address3</field>
+				<field>address4</field>
+			</fields>
+		</widget>
+		<widget name="topscorer_core_highlight">
+			<fields>
+				<field>text</field>
+				<field>link</field>
+			</fields>
+		</widget>
+		<widget name="topscorer_core_icon_list_item">
+			<fields>
+				<field>link</field>
+				<field>number</field>
+				<field>title</field>
+			</fields>
+		</widget>
+		<widget name="topscorer_core_icon_with_text">
+			<fields>
+				<field>link</field>
+				<field>title</field>
+				<field>subtitle</field>
+				<field>text</field>
+			</fields>
+		</widget>
+		<widget name="topscorer_core_image_marquee">
+			<fields>
+				<field>duration</field>
+				<field>link</field>
+			</fields>
+		</widget>
+		<widget name="topscorer_core_image_with_text">
+			<fields>
+				<field>link</field>
+				<field>title</field>
+				<field>text</field>
+			</fields>
+		</widget>
+		<widget name="topscorer_core_info_section">
+			<fields>
+				<field>title</field>
+				<field>info_text</field>
+				<field>text</field>
+				<field>link</field>
+				<field>input_name</field>
+				<field>background_text_text</field>
+			</fields>
+		</widget>
+		<widget name="topscorer_core_progress_bar">
+			<fields>
+				<field>custom_shape</field>
+				<field>custom_shape_id</field>
+				<field>number</field>
+				<field>title</field>
+				<field>text</field>
+			</fields>
+		</widget>
+		<widget name="topscorer_core_section_title">
+			<fields>
+				<field>title</field>
+				<field>subtitle</field>
+				<field>link</field>
+				<field>text</field>
+			</fields>
+		</widget>
+		<widget name="topscorer_core_video_button">
+			<fields>
+				<field>video_link</field>
+			</fields>
+		</widget>
+		<widget name="topscorer_workflow_gallery">
+			<fields-in-item items_of="children">
+				<field>date</field>
+				<field>title</field>
+				<field>text</field>
+			</fields-in-item>
+		</widget>
+		<widget name="topscorer_core_social_share">
+			<fields>
+				<field>title</field>
+			</fields>
+		</widget>
+		<widget name="topscorer_core_sportspress_advanced_single_event">
+			<fields>
+				<field>background_text</field>
+			</fields>
+		</widget>
+		<widget name="topscorer_core_sportspress_player_social_networks">
+			<fields>
+				<field>title</field>
+			</fields>
+		</widget>
+		<widget name="topscorer_core_sportspress_event_blocks">
+			<fields>
+				<field>sportspress_shortcode_number</field>
+				<field>sportspress_shortcode_rows</field>
+			</fields>
+		</widget>
+		<widget name="topscorer_core_sportspress_event_list">
+			<fields>
+				<field>sportspress_shortcode_number</field>
+				<field>sportspress_shortcode_rows</field>
+			</fields>
+		</widget>
+		<widget name="topscorer_core_sportspress_league_table">
+			<fields>
+				<field>sportspress_shortcode_number</field>
+				<field>sportspress_shortcode_rows</field>
+			</fields>
+		</widget>
+		<widget name="topscorer_core_sportspress_player_gallery">
+			<fields>
+				<field>sportspress_shortcode_number</field>
+			</fields>
+		</widget>
+		<widget name="topscorer_core_sportspress_player_list">
+			<fields>
+				<field>sportspress_shortcode_number</field>
+				<field>sportspress_shortcode_columns</field>
+			</fields>
+		</widget>
+	</elementor-widgets>
+</wpml-config>

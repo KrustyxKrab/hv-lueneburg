@@ -1,10 +1,13 @@
-kind: wasmer.io/App.v0
 name: hv-lueneburg
+app_id: da_K53IxtPUDEmo
 owner: krustyxkrab
 package: '.'
+capabilities:
+  database:
+    engine: mysql
 volumes:
 - name: uploads
   mount: /app/wp-content/uploads
 scaling:
   mode: single_concurrency
-app_id: da_K53IxtPUDEmo
+kind: wasmer.io/App.v0
