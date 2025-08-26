@@ -1,0 +1,10 @@
+kind: wasmer.io/App.v0
+name: hv-lueneburg
+owner: krustyxkrab
+package: '.'
+volumes:
+- name: uploads
+  mount: /app/wp-content/uploads
+scaling:
+  mode: single_concurrency
+app_id: da_K53IxtPUDEmo

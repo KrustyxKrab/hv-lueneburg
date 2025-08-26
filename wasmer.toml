@@ -1,0 +1,20 @@
+[package]
+name = "hv-lueneburg"
+version = "0.1.0"
+description = "HV Lüneburg WordPress on Wasmer"
+
+[dependencies]
+"php/php" = "*"   
+
+[fs]
+"/app"    = "."         
+"/config" = "config"   
+
+[[command]]
+name   = "run"
+module = "php/php:php"  
+runner = "wasi"
+
+[command.annotations.wasi]
+main-args = ["-t", "/app", "-S", "localhost:8080"]
+env       = ["PHPRC=/config/"]
