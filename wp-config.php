@@ -5,7 +5,7 @@
 
 /* --- HTTPS/Proxy hinter Wasmer --- */
 if (isset($_SERVER['HTTP_X_FORWARDED_PROTO']) && strpos($_SERVER['HTTP_X_FORWARDED_PROTO'], 'https') !== false) {
-    $_SERVER['HTTPS'] = 'on';
+  $_SERVER['HTTPS'] = 'on';
 }
 if (!defined('FORCE_SSL_ADMIN')) define('FORCE_SSL_ADMIN', true);
 
@@ -35,6 +35,10 @@ if (!defined('MYSQL_CLIENT_FLAGS')) {
     define('MYSQL_CLIENT_FLAGS', MYSQLI_CLIENT_SSL);
 }
 
+// Temporär hard-set; später entfernen, wenn in der DB korrigiert:
+define('WP_HOME',    'https://hv-lueneburg.wasmer.app');
+define('WP_SITEURL', 'https://hv-lueneburg.wasmer.app');
+
 /*  Authentication Keys/Salts – echte Werte einsetzen! */
 define('AUTH_KEY',         'REPLACE_ME');
 define('SECURE_AUTH_KEY',  'REPLACE_ME');
@@ -50,7 +54,8 @@ $table_prefix = 'wp_';
 
 /* Debug – Anzeige im HTML aus, ins Log an */
 define('WP_DEBUG', true);
-define('WP_DEBUG_LOG', true);
+/* define('WP_DEBUG_LOG', true); */
+define('WP_DEBUG_LOG', '/tmp/wp-debug.log');
 define('WP_DEBUG_DISPLAY', false);
 @ini_set('display_errors', 0);
 
